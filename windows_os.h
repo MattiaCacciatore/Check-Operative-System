@@ -1,5 +1,4 @@
-/* windows_os.h */
-// Lettura file, es. eof()
+// windows_os.h
 #include <stdio.h>
 
 namespace win{
