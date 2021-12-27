@@ -1,4 +1,4 @@
-/* unix_os.h */
+// unix_os.h
 #include <stdio.h>
 #include <fcntl.h>  // open
 #include <unistd.h> // dup2, close
