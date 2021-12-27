@@ -1,17 +1,16 @@
 #ifdef _WIN32
-	#include "windows_os.h" // Windows OS detected.
+   #include "windows_os.h" // Windows OS detected.
 #elif __unix__
-	#include "unix_os.h"    // Unix OS detected.
+   #include "unix_os.h"    // Unix OS detected.
 #endif
 
-int main()
-{
+int main(){
 #ifdef _WIN32
-	if(win::my_printf())
+   if(win::my_printf())
 #elif __unix__
-	if(unix::my_printf())
+   if(unix::my_printf())
 #endif
-		return 0;
-	else
-		return -1;
+      return 0;
+   else
+      return -1;
 }
