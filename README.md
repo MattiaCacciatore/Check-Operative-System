@@ -5,12 +5,14 @@ How to check the operating system (aka OS) and run different code from the same 
 ## Usage
 
 <details><summary><b>Show instructions</b></summary>
+
 1. Download and compile:
   ```sh
   $ g++ -std=c++11 mani.cpp unix_functions.cpp windows_functions.cpp -o CheckOS
   
   $ ./CheckOS
   ```
+ 
 </details>
 
 ## Motivation
