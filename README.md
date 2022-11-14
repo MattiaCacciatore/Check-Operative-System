@@ -8,7 +8,7 @@ How to check the operating system (aka OS) and run different code from the same 
 
 1. Download and compile:
   ```sh
-  $ g++ -std=c++11 mani.cpp unix_functions.cpp windows_functions.cpp -o CheckOS
+  $ g++ -std=c++11 main.cpp unix_functions.cpp windows_functions.cpp -o CheckOS
   
   $ ./CheckOS
   ```
